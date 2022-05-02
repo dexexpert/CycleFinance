@@ -1,0 +1,41 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: #df3f3e;
+            }
+
+            .cls-2 {
+                fill: #fff;
+            }
+
+            .cls-25 {
+                fill: #387cf4;
+            }
+
+            .cls-48 {
+                fill: none;
+                stroke: #387cf4;
+                stroke-miterlimit: 10;
+                stroke-width: 5px;
+            }
+        </style>
+    </defs>
+
+    <!-- eggs -->
+    <g transform="translate(0, -360.06)">
+        <g id="Layer_5-8" data-name="Layer 5">
+            <circle id="BLUE-3" data-name="BLUE" class="cls-25" cx="37.5" cy="397.56" r="37.5" />
+        </g>
+        <path class="cls-2"
+            d="M178.08,550.31c-8-.54-17.18,10.44-17.91,21.36-.69,10.33,5.94,18.9,15.09,19.51,8.37.56,17.48-5.75,18.25-17.28C194.2,563.61,185.84,550.82,178.08,550.31Z"
+            transform="translate(-129.4 -177.63)" />
+        <path class="cls-48"
+            d="M153.54,559.69c-7.88,1.33-14.29,14.15-12.46,24.94,1.73,10.21,10.16,17,19.21,15.48,8.27-1.4,15.67-9.66,13.74-21.06C172.31,568.89,161.2,558.39,153.54,559.69Z"
+            transform="translate(-129.4 -177.63)" />
+        <path class="cls-2"
+            d="M153.54,559.69c-7.88,1.33-14.29,14.15-12.46,24.94,1.73,10.21,10.16,17,19.21,15.48,8.27-1.4,15.67-9.66,13.74-21.06C172.31,568.89,161.2,558.39,153.54,559.69Z"
+            transform="translate(-129.4 -177.63)" />
+    </g>
+
+</svg>

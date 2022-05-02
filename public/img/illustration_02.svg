@@ -1,0 +1,34 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: #df3f3e;
+            }
+
+            .cls-2 {
+                fill: #fff;
+            }
+
+            .cls-25 {
+                fill: #387cf4;
+            }
+
+            .cls-48 {
+                fill: none;
+                stroke: #387cf4;
+                stroke-miterlimit: 10;
+                stroke-width: 5px;
+            }
+        </style>
+    </defs>
+
+    <!-- egg -->
+    <g transform="translate(0, -90.13)">
+        <g id="Layer_5-2" data-name="Layer 5">
+            <circle id="RED-2" data-name="RED" class="cls-1" cx="37.5" cy="127.63" r="37.5" />
+        </g>
+        <path class="cls-2"
+            d="M166.58,280.68c-9.68,0-19.93,14-19.93,27.28,0,12.55,8.71,22.38,19.83,22.38,10.16,0,20.67-8.37,20.67-22.38C187.15,295.47,176,280.68,166.58,280.68Zm-.61,12c-3.91,2.68-7.26,8.45-8.15,14a2.25,2.25,0,0,1-2.22,1.9l-.36,0a2.25,2.25,0,0,1-1.86-2.58c1.08-6.8,5.12-13.65,10-17a2.25,2.25,0,1,1,2.55,3.71Z"
+            transform="translate(-129.4 -177.63)" />
+    </g>
+</svg>

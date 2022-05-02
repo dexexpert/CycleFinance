@@ -1,0 +1,124 @@
+* {
+  font-family: 'Poppins';
+}
+
+
+.cr-slauteblue-sm {
+  background-color: #191a32!important;
+}
+
+.cr-slauteblue-md {
+  background-color: #2a2c54!important;
+}
+
+.cr-slauteblue-lg {
+  background-color: #3b3d76!important;
+}
+
+.chikn-red {
+  color: #FAB801;
+}
+
+.selectbox {
+  box-shadow: 0 0 0 0.25rem rgb(223 63 61 / 50%)
+}
+
+.selectbox:focus {
+  box-shadow: 0 0 0 0.25rem rgb(223 63 61 / 50%)
+}
+
+.selectbox::after {
+  color:#FAB801;
+}
+
+.background-img {
+  background-image: linear-gradient(140deg, #ff896b 0%, #5450ec 50%, #4898b4 75%);
+}
+
+.y-reverse {
+  transform: rotateY(3.142rad) translateY(-200px);
+}
+
+.header {
+  background: rgba(165, 33, 33, 0);
+  transform: none;
+  transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  backdrop-filter: blur(10px);
+}
+
+.header-logo {
+  cursor: pointer;
+  height: 75px;
+  padding-right: 10px;
+  transition-duration: 0.5s;
+  transition-property: transform;
+}
+
+.header-logo:hover {
+  transform: rotateZ(-30deg);
+}
+
+.hamburger {
+  display: none;
+  z-index:100; 
+}
+
+.hamburger .bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
+
+}
+
+.card-valuts {
+  color: rgb(224, 224, 224);
+  width: 600px;
+  margin: 20px;
+  padding: 10px;
+  font-weight: 500;
+  background-color: rgb(45, 56, 72);
+  font-size: 0.8em;
+  border: 2px solid rgb(224, 224, 224);
+  border-radius: 15px;
+}
+
+.MuiOutlinedInput-input {
+  color: white !important;
+  
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+
+.MuiMenu-list {
+  background: #2D3848;
+  color: white;
+}
+
+@media only screen and (max-width: 873px) {
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
