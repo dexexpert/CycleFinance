@@ -1,7 +1,5 @@
 import React from "react";
 
-import { ToolButton } from "../../../components/Button";
-
 const Footer = () => {
   return (
     <div className="header flex flex-col justify-center items-center py-10">
