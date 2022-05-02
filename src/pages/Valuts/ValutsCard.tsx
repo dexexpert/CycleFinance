@@ -17,7 +17,7 @@ const ValutsCard: FC<IValutsCard> = (props) => {
 
   const {
     protocol,
-    valutType,
+    // valutType,
     pair,
     lp,
     payment,

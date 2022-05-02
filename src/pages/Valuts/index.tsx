@@ -1,7 +1,6 @@
 import React from 'react';
 import OutlinedInput from '@mui/material/OutlinedInput';
 import Checkbox from '@mui/material/Checkbox';
-import {useTheme} from '@mui/material/styles';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
@@ -71,8 +70,6 @@ const ValutCards:IValutsCard[] = [
 ]
 
 const LpHunt = () => {
-
-  const theme = useTheme();
 
   const [values, setValues] = React.useState<State>({
     search: '',
@@ -166,7 +163,7 @@ const LpHunt = () => {
                   input={<OutlinedInput label="Protocols" />}
                   renderValue={(selected) => {
                     let value = '';
-                    selected.map(s=> {
+                    selected.forEach(s=> {
                       value += protocols[parseInt(s)-1].protocol+', ';
                     })
                     return value}}
@@ -174,7 +171,7 @@ const LpHunt = () => {
                 >
                   {protocols.map((p, index) => {
                     let f = false;
-                    values.protocols.map(p => {
+                    values.protocols.forEach(p => {
                       if(p.toString() === (index+1).toString()) f=true;
                     })
                     return <MenuItem key={index} value={index+1}>
@@ -195,16 +192,17 @@ const LpHunt = () => {
         {
           ValutCards.map((v,i) => {
             let pf = false, vf = false;
-            values.protocols.map(p => {
+            values.protocols.forEach(p => {
               if(p.toString() === v.protocol.toString()) pf=true;
             })
             if(values.protocols.length === 0) pf = true;
-            v.valutType.map(v => {
+            v.valutType.forEach(v => {
               if(v === parseInt(values.valutType)) vf = true;
             })
-            if(values.valutType == '0') vf = true;
+            if(values.valutType === '0') vf = true;
             if(vf && pf)
               return <div className=' md:w-[600px] w-9/12'><ValutCard {...v} key={i} /> </div>
+            return <></>
             }
           )
         }

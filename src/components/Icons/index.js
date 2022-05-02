@@ -53,14 +53,14 @@ const SocialIcons = (props) => {
   const { socialLink, discordStatus } = props;
   return (
     <SocialIconWrap>
-      {!socialLink?.instagram == "" ? (
+      {!socialLink?.instagram === "" ? (
         <SocialIcon type="instagram" socialLink={socialLink} />
       ) : null}
       {discordStatus && <SocialIcon type="discord" socialLink={socialLink} />}
-      {!socialLink?.twitter == "" ? (
+      {!socialLink?.twitter === "" ? (
         <SocialIcon type="twitter" socialLink={socialLink} />
       ) : null}
-      {!socialLink?.tiktok == "" ? (
+      {!socialLink?.tiktok === "" ? (
         <SocialIcon type="tiktok" socialLink={socialLink} />
       ) : null}
     </SocialIconWrap>
